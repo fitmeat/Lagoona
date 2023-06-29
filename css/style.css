@@ -220,7 +220,6 @@ body {
 
 .card-header {
     margin: 0;
-    padding-top: 40px;
     margin-bottom: 15px;
     max-width: 420px;
     color: #FFF;
@@ -271,6 +270,8 @@ body {
 .services-item {
     width: 563px;
     min-height: 330px;
+    padding: 32px;
+    padding-top: 200px;
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-size: 563px 163px;
@@ -296,11 +297,6 @@ body {
 
 .services-img-4 {
     background-image: url(../img/services-4.jpg);
-}
-
-.services-card-content {
-    padding: 32px;
-    padding-top: 200px;
 }
 
 .services-card-header {
@@ -343,8 +339,8 @@ body {
 .advantages-item {
     width: 260px;
     padding: 30px;
+    padding-top: 120px;
     min-height: 276px;
-    align-items: flex-end;
     margin-bottom: 30px;
     background-color: #fff;
     border-radius: 15px;
