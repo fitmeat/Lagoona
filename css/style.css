@@ -83,7 +83,7 @@ body {
 }
 
 .container {
-    max-width: 1270px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -188,6 +188,7 @@ body {
     padding: 40px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 15px;
 }
 
