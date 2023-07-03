@@ -99,7 +99,7 @@ body {
 
 /* header */
 .header {
-    padding: 36px 0;
+    padding: 36px 0 0;
 }
 
 .container-top {
@@ -248,7 +248,7 @@ body {
 
 /* about us */
 .about-us {
-    padding: 70px 0;
+    padding: 70px 0 0;
 }
 
 .about-us-text {
@@ -262,7 +262,7 @@ body {
 
 /* services */
 .services {
-    padding: 70px 0;
+    padding: 70px 0 0;
 }
 .services-list {
     flex-wrap: wrap;
@@ -329,7 +329,7 @@ body {
 
 /* advantages */
 .advantages {
-    padding: 70px 0;
+    padding: 70px 0 0;
 }
 
 .advantages-list {
@@ -394,7 +394,7 @@ body {
 
 /* hotels */
 .hotels {
-    padding: 70px 0;
+    padding: 70px 0 0;
 }
 
 .hotels-list {
@@ -487,3 +487,289 @@ body {
 .link-span{
     margin-right: 5px;
   }
+
+/* tour */
+.tour {
+    padding: 70px 0 0;
+}
+
+.tour-fildset {
+    border: none;
+}
+
+.tour-legend {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tour-form {
+    margin-right: 51px;
+}
+
+.tour-form-container {
+    width: 1080px;
+    height: 106px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+
+.tour-btn {
+    min-width: 108px;
+    height: 42px;
+    padding: 13px 30px;
+    border-radius: 10px;
+}
+
+.tour-container {
+    width: 1170px;
+    height: 256px;
+    background-color: rgba(233, 233, 233, 1);
+    border-radius: 15px;
+}
+
+.tour-title {
+    padding-top: 45px;
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* contacts */
+.contacts {
+    padding: 70px 0 0;
+}
+
+.contacts-wrapper {
+    width: 1170px;
+    min-height: 618px;
+    background-color: #fff;
+    border-radius: 15px;
+    border-radius: 10px;
+    background-image: url(../img/contacts-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 653px 528px;
+    background-position: 472px center;
+}
+
+.contacts-title {
+    color: #333;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contacts-list {
+    padding-left: 45px;
+    padding-top: 45px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts-item {
+    width: 375px;
+    padding-bottom: 5px;
+    margin-bottom: 49px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.contacts-item-address,
+.contacts-item-phones,
+.contacts-item-emails,
+.contacts-item-time {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-item-address {
+    max-width: 200px;
+    min-height: 48px;
+}
+
+.contacts-item-phones {
+    flex-wrap: wrap;
+}
+
+.contacts-item-time{
+    width: 214px;
+    min-height: 48px;
+}
+
+.contacts-item-title {
+    margin: 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-address {
+    margin-right: 83px;
+}
+
+.title-phones {
+    margin-right: 47px;
+}
+
+.title-mail {
+    margin-right: 93px;
+}
+
+.title-time {
+    margin-right: 74px;
+}
+
+.contacts-btn-wrapper {
+    padding-left: 45px;
+}
+
+.contacts-btn {
+    padding: 30px;
+}
+
+.address-link {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.phones-link {
+    color: #C93;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.emails {
+    color: #C93;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.contacts-mail-span {
+    color: #999;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.contacts-item-time {
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* footer */
+.footer {
+    padding: 40px 0 30px;
+}
+
+.footer-container {
+    width: 1170px;
+    min-height: 341px;
+    padding-top: 45px;
+    padding-left: 45px;
+    border-radius: 15px;
+    background-color: #333;
+    background-image: url(../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 254px 228px;
+    background-position: 739px bottom;
+}
+
+.footer-left {
+    width: 320px;
+    margin-right: 125px;
+    flex-direction: column;
+}
+
+.footer-center {
+    margin-right: 269px;
+    flex-direction: column;
+}
+
+.footer-copy {
+    width: 302px;
+    min-height: 60px;
+    margin: 0;
+    margin-bottom: 37px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+}
+
+.footer-text {
+    margin: 0;
+    width: 302px;
+    min-height: 90px;
+    margin-bottom: 40px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+}
+
+.footer-link {
+    margin-bottom: 45px;
+    color: #C93;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    }
+
+.footer-address{
+    margin-bottom: 15px;
+}
+
+.footer-address-link {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-tel {
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.footer-tel-link {
+    color: #C93;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-email {
+    flex-direction: column;
+    color: #C93;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-social:not(:last-child) {
+    margin-bottom: 20px;
+}
+
