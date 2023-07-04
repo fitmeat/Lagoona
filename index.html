@@ -495,31 +495,31 @@
                 <div class="tour-form-container flex">
                     <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="tour-form flex">
                         <fieldset class="tour-fildset">
-                            <legend class="tour-legend">Город вылета</legend>
-                            <select name="city">
+                            <label class="tour-legend">Город вылета</label>
+                            <select class="form-element" name="city">
                                 <option value="Санкт-Петербург" disabled selected>Санкт-Петербург</option>
                             </select>
                         </fieldset>
                         <fieldset class="tour-fildset">
-                            <legend class="tour-legend">Страна</legend>
-                            <select name="Country">
+                            <label class="tour-legend">Страна</label>
+                            <select class="form-element" name="Country">
                                 <option value="Австралия" disabled selected>Австралия</option>
                             </select>
                         </fieldset>
                         <fieldset class="tour-fildset">
-                            <legend class="tour-legend">Дата прибытия</legend>
-                            <input type="date" name="date" value="2021-10-18">
+                            <label class="tour-legend">Дата прибытия</label>
+                            <input class="form-element" type="date" name="date" value="2021-10-18">
                         </fieldset>
                         <fieldset class="tour-fildset">
-                            <legend class="tour-legend">Ночей</legend>
-                            <input type="number" name="nights" value="6" min="1">
+                            <label class="tour-legend">Ночей</label>
+                            <input class="form-element form-element-border" type="number" name="nights" value="6" min="1">
                         </fieldset>
                         <fieldset class="tour-fildset">
-                            <legend class="tour-legend">Туристы</legend>
-                            <input type="number" name="tourists" value="2" min="1" required>
+                            <label class="tour-legend">Туристы</label>
+                            <input class="form-element form-element-border form-element-tourist" type="number" name="tourists" value="2" min="1" required>
                         </fieldset>
+                        <button class="btn btn-reset tour-btn flex">Найти</button>
                     </form>
-                    <button class="btn btn-reset tour-btn">Найти</button>
                 </div>
             </div>
         </section>

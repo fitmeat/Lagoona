@@ -496,6 +496,17 @@ body {
 .tour-fildset {
     border: none;
 }
+.form-element-tourist {
+    margin-right: 51px;
+}
+
+.form-element {
+    border: 0;
+}
+
+.form-element-border {
+    border-bottom: 1px solid #E9E9E9;;
+}
 
 .tour-legend {
     font-size: 12px;
@@ -522,6 +533,8 @@ body {
     min-width: 108px;
     height: 42px;
     padding: 13px 30px;
+    flex-direction: column;
+    align-self: center;
     border-radius: 10px;
 }
 
@@ -547,6 +560,7 @@ body {
 
 .contacts-wrapper {
     width: 1170px;
+    padding: 45px;
     min-height: 618px;
     background-color: #fff;
     border-radius: 15px;
@@ -554,6 +568,7 @@ body {
     background-image: url(../img/contacts-bg.jpg);
     background-repeat: no-repeat;
     background-size: 653px 528px;
+    background-size:cover;
     background-position: 472px center;
 }
 
@@ -565,8 +580,6 @@ body {
 }
 
 .contacts-list {
-    padding-left: 45px;
-    padding-top: 45px;
     flex-direction: column;
     justify-content: center;
 }
@@ -622,10 +635,6 @@ body {
 
 .title-time {
     margin-right: 74px;
-}
-
-.contacts-btn-wrapper {
-    padding-left: 45px;
 }
 
 .contacts-btn {
