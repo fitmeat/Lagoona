@@ -132,7 +132,7 @@ body {
 
 .container-bottom {
     align-items: center;
-    padding: 25px 20px;
+    padding: 14px 45px;
     background-color: #fff;
     border-radius: 15px;
 }
@@ -494,6 +494,8 @@ body {
 }
 
 .tour-fildset {
+    margin: 0;
+    padding: 0;
     border: none;
 }
 .form-element-tourist {
@@ -501,6 +503,7 @@ body {
 }
 
 .form-element {
+    margin-right: 41px;
     border: 0;
 }
 
@@ -509,13 +512,12 @@ body {
 }
 
 .tour-legend {
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 4px;
     font-size: 12px;
     font-weight: 400;
     line-height: normal;
-}
-
-.tour-form {
-    margin-right: 51px;
 }
 
 .tour-form-container {
@@ -579,13 +581,12 @@ body {
 
 .contacts-list {
     margin-bottom: 45px;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .contacts-item {
     min-height: 72px;
     margin-bottom: 25px;
+    padding-bottom: 23px;
     border-bottom: 1px solid #e9e9e9;
 }
 
@@ -653,7 +654,8 @@ body {
     border-radius: 10px;
 }
 
-.address-link {
+.address-text {
+    margin: 0;
     color: #000;
     font-size: 16px;
     font-weight: 400;
@@ -758,7 +760,8 @@ body {
     margin-bottom: 15px;
 }
 
-.footer-address-link {
+.footer-address-text {
+    margin: 0;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
