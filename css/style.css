@@ -493,11 +493,20 @@ body {
     padding: 70px 0 0;
 }
 
-.tour-fildset {
+.tour-fieldset {
     margin: 0;
     padding: 0;
     border: none;
 }
+
+.form-element-select {
+    width: 159px;
+}
+
+.form-element-input {
+    width: 106px;
+}
+
 .form-element-tourist {
     margin-right: 51px;
 }
@@ -648,10 +657,14 @@ body {
     line-height: 16px;
 }
 
-.contacts-img{
+.contacts-img-div{
     width: 653px;
     min-height: 450px;
     border-radius: 10px;
+}
+
+.contacts-img {
+    height: 100%;
 }
 
 .address-text {

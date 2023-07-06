@@ -494,30 +494,30 @@
                 <h2 class="main-header section-title tour-title">Хочу тур</h2>
                 <div class="tour-form-container flex">
                     <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="tour-form flex">
-                        <fieldset class="tour-fildset">
+                        <fieldset class="tour-fieldset">
                             <label class="tour-legend">Город вылета</label>
-                            <select class="form-element" name="city">
+                            <select class="form-element form-element-select" name="city">
                                 <option value="Санкт-Петербург" disabled selected>Санкт-Петербург</option>
                             </select>
                         </fieldset>
-                        <fieldset class="tour-fildset">
+                        <fieldset class="tour-fieldset">
                             <label class="tour-legend">Страна</label>
-                            <select class="form-element" name="Country">
+                            <select class="form-element form-element-select" name="Country">
                                 <option value="Австралия" disabled selected>Австралия</option>
                             </select>
                         </fieldset>
-                        <fieldset class="tour-fildset">
+                        <fieldset class="tour-fieldset">
                             <label class="tour-legend">Дата прибытия</label>
-                            <input class="form-element" type="date" name="date" value="2021-10-18">
+                            <input class="form-element form-element-input" type="date" name="date" value="2021-10-18">
                         </fieldset>
-                        <fieldset class="tour-fildset">
+                        <fieldset class="tour-fieldset">
                             <label class="tour-legend">Ночей</label>
-                            <input class="form-element form-element-border" type="number" name="nights" value="6"
+                            <input class="form-element form-element-border form-element-input" type="number" name="nights" value="6"
                                 min="1">
                         </fieldset>
-                        <fieldset class="tour-fildset">
+                        <fieldset class="tour-fieldset">
                             <label class="tour-legend">Туристы</label>
-                            <input class="form-element form-element-border form-element-tourist" type="number"
+                            <input class="form-element form-element-border form-element-tourist form-element-input" type="number"
                                 name="tourists" value="2" min="1" required>
                         </fieldset>
                         <button class="btn btn-reset tour-btn flex">Найти</button>
@@ -563,8 +563,8 @@
                         </ul>
                         <button class="btn btn-reset contacts-btn">Построить маршрут</button>
                     </div>
-                    <div class="contacts-img">
-                        <img src="img/contacts-bg.jpg" alt="Contacts-BG">
+                    <div class="contacts-img-div">
+                        <img class="contacts-img" src="img/contacts-bg.jpg" alt="Contacts-BG">
                     </div>
                 </div>
             </div>
