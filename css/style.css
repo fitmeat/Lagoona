@@ -500,11 +500,11 @@ body {
 }
 
 .form-element-select {
-    width: 159px;
+    width: 169px;
 }
 
 .form-element-input {
-    width: 106px;
+    width: 121px;
 }
 
 .form-element-tourist {
@@ -533,7 +533,7 @@ body {
     width: 1080px;
     height: 106px;
     margin: 0 auto;
-    justify-content: center;
+    padding: 32px 28px;
     align-items: center;
     flex-shrink: 0;
     background-color: #FFF;
