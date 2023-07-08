@@ -78,6 +78,30 @@ body {
     cursor: pointer;
 }
 
+.btn {
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: 1px solid #C93;
+    color: #CC9933;
+    transition: color .3s ease-in-out,
+    background-color .3s ease-in-out;
+}
+
+.btn:focus {
+    color: #FFF;
+    background-color: #c93;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #c93;
+}
+
+.btn:active {
+    color: #fff;
+    background-color: #A47312;
+}
+
 .flex {
     display: flex;
 }
@@ -95,6 +119,51 @@ body {
     color: #333;
     font-size: 40px;
     font-weight: 300;
+}
+
+.mail {
+    transition: color 0.3s ease-in-out;
+}
+
+.mail-lgoona {
+    width: 120px;
+}
+
+.mail-hotels {
+    width: 128px;
+}
+
+.mail:hover {
+    color: #F0BF5F;
+}
+
+.mail:focus .mail-hotels{
+    color: #c93;
+    outline: 1px solid #C93;
+    outline-offset: 5px;
+}
+
+.mail:focus .mail-lgoona{
+    color: #c93;
+    outline: 1px solid #C93;
+    outline-offset: 5px;
+}
+
+.mail:active .mail-lgoona {
+    color: #A47312;
+    outline: none;
+}
+
+.mail:active .mail-hotels{
+    color: #A47312;
+    outline: none;
+}
+
+:root {
+    --main-link-color: #c93;
+    --active-link-color: #A47312;
+    --main-text-color: #000;
+    --second-text-color: #fff;
 }
 
 /* header */
@@ -120,6 +189,47 @@ body {
 .header-link {
     margin-right: 52px;
     align-items: center;
+    transition: color 0.3s ease-in-out;
+}
+
+.header-link:focus {
+    color: #c93;
+    outline: 1px solid #C93;
+    outline-offset: 5px;
+}
+
+.header-link:hover {
+    color: #F0BF5F;;
+}
+
+.header-link:active {
+    color: #A47312;
+    outline: none;
+}
+
+.header-link-svg {
+    fill: #C93;
+    transition: fill 0.3s ease-in-out;
+}
+
+.header-link:hover .header-link-svg {
+    fill: #F0BF5F;
+}
+
+.header-link:active .header-link-svg {
+    fill:#A47312;
+}
+
+.header-top-span {
+    transition: color 0.3s ease-in-out;
+}
+
+.header-link:hover .header-top-span {
+    color: #F0BF5F;
+}
+
+.header-link:active .header-top-span {
+    color: #A47312;
 }
 
 .header-top-span {
@@ -154,13 +264,6 @@ body {
     margin-right: 50px;
 }
 
-.btn {
-    padding: 13px 20px;
-    border-radius: 10px;
-    border: 1px solid #C93;
-    color: #CC9933
-}
-
 .btn-header-1 {
     margin-right: 15px;
 }
@@ -170,6 +273,45 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
+
+}
+
+.header-address-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.header-address-link:focus {
+    color: #c93;
+    outline: 1px solid #C93;
+    outline-offset: 5px;
+}
+
+.header-address-link:hover {
+    color: #C93;
+}
+
+.header-address-link:active {
+    color: #A47312;
+    outline: none;
+}
+
+.header-item-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.header-item-link:focus {
+    color: #c93;
+    outline: 1px solid #C93;
+    outline-offset: 5px;
+}
+
+.header-item-link:hover {
+    color: #C93;
+}
+
+.header-item-link:active {
+    color: #A47312;
+    outline: none;
 }
 
 /* special offer */
@@ -190,6 +332,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
+}
+
+.card-link:focus .card {
+    outline: 1px solid #C93;
+    outline-offset: 8px;
 }
 
 .card:last-child{
@@ -244,6 +391,16 @@ body {
     background-image: url(../img/Rectangle\ 2.svg);
     background-repeat: no-repeat;
     background-position: right center;
+    transition: padding-right 0.3s ease-in-out;
+}
+
+.card-link:hover {
+    padding-right: 28px;
+}
+
+.card-link:active {
+    color: #FFF;
+    padding-right: 15px;
 }
 
 /* about us */
@@ -278,6 +435,11 @@ body {
     background-size: 563px 163px;
     border-radius: 15px;
     background-color: #fff;
+}
+
+.services-card-link:focus .services-item {
+    outline: 1px solid #C93;
+    outline-offset: 8px;
 }
 
 .services-item:not(:nth-child(2n)) {
@@ -316,6 +478,18 @@ body {
     background-image: url(../img/Rectangle\ 2.svg);
     background-repeat: no-repeat;
     background-position: right;
+    transition: paddind-right 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+.services-card-link:hover {
+    padding-right: 28px;
+    color: #F0BF5F;
+}
+
+.services-card-link:active {
+    padding-right: 15px;
+    color: #A47312;
 }
 
 .services-card-descr {
@@ -486,7 +660,20 @@ body {
 
 .link-span{
     margin-right: 5px;
-  }
+}
+
+.hotel-main-card {
+    position: relative;
+}
+
+.hotel-main-card-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* tour */
 .tour {
@@ -684,7 +871,7 @@ body {
     line-height: 150%;
 }
 
-.emails {
+.contacts-emails {
     color: #C93;
     font-size: 16px;
     font-style: normal;
@@ -806,5 +993,22 @@ body {
 
 .footer-social:not(:last-child) {
     margin-bottom: 20px;
+}
+
+.footer-svg {
+    fill: rgba(153, 153, 153, 1);
+    transition: fill 0.3s ease-in-out;
+}
+
+.footer-social-link:focus .footer-svg {
+    fill: rgba(204, 153, 51, 1);
+}
+
+.footer-social-link:hover .footer-svg {
+    fill: rgba(204, 153, 51, 1)
+}
+
+.footer-social-link:active .footer-svg {
+    fill: rgba(164, 115, 18, 1);
 }
 
